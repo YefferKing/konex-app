@@ -1,0 +1,8 @@
+<a routerLink="/addProducto">Agregar Producto</a>
+
+<div *ngFor='let producto of productos'>
+    <h3>{{producto.producto}}</h3>
+    <p>{{producto.descripcion}}</p>
+    <p>{{producto.monto}}</p>
+
+</div>

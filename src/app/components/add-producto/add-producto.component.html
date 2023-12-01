@@ -1,0 +1,29 @@
+<form (ngSubmit)="saveProducto()">
+
+    <input type="text"
+    name="producto"
+    [(ngModel)]="guardado.producto"
+    placeholder="Nombre producto"
+    >
+
+    <input
+    type="nnmber"
+    name="monto"
+    [(ngModel)]="guardado.monto"
+    placeholder="Monto producto"
+    >
+
+    <input
+    type="text"
+    name="descripcion"
+    [(ngModel)]="guardado.descripcion"
+    placeholder="Descripcion producto"
+    >
+    <input type="submit" value="Agregar producto">
+
+
+
+
+
+
+</form>
